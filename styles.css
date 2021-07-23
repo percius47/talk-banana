@@ -13,10 +13,17 @@
 }
 body{
     height: auto;
-    background-image: url("https://i.pinimg.com/originals/f9/4f/aa/f94faa6189dc8a2d6e5048bd0eebf39c.png");
+   
    
     
     margin:0;
+}
+
+.site-body{
+    padding-top: 3rem;
+    height: auto;
+    background-image: url("https://i.pinimg.com/originals/f9/4f/aa/f94faa6189dc8a2d6e5048bd0eebf39c.png");
+    padding-bottom: 3.5rem;
 }
 .nav{
 
@@ -24,14 +31,14 @@ body{
   
     background-color: var(--primary-color);
     padding:2rem;
-    margin-bottom: 3rem;
+   
     border-bottom: solid 1px black;
     
 }
 .nav h1{
     text-align: center;
     margin-top: 10px;
-    font-size: 400%;
+    font-size: 300%;
     letter-spacing: 5px;
   
 }
@@ -99,7 +106,7 @@ body{
 
 .footer{
     height: 10vh;
-    margin-top: 3.5rem;
+    
     border-top:  solid 1px black;
     padding: 1rem;
     background-color: var(--primary-color);
